@@ -1,5 +1,5 @@
 # COEN241-Kubernerds
-##### Evaluation of deployment patterns of microservices
+### Evaluation of deployment patterns of microservices
 
 We used the following open source microservice applications for evaluating various deployment pattern.
 
@@ -44,7 +44,8 @@ cd user
 ```
 Install go, glide, mongo
 ```
-user
+cd go/src/github.com/microservices-demo/user
+./user -port=8080 -database=mongodb -mongo-host=localhost:27017
 ```
 ## Service per Container
 Install git
